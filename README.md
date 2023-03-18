@@ -1,7 +1,7 @@
 # awesome-algebraic-statistics
 A curated list of Algebraic Statistics tools and resources.
 
-Algebraic statistics is concerned with the development of techniques in algebraic geometry, commutative algebra, and combinatorics, to address problems in statistics and its applications. []
+Algebraic statistics is concerned with the development of techniques in algebraic geometry, commutative algebra, and combinatorics, to address problems in statistics and its applications. 
 
 ## Contents
 
@@ -10,7 +10,6 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 - [Theory](#theory)
   - [Books](#books)
   - [Articles](#articles)
-  - [Courses](#courses)
 - [Tools](#tools)
   - [Macaulay2](#macaulay2)
   - [R](#r)
@@ -28,7 +27,6 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 - [Lectures on Algebraic Statistics](https://math.berkeley.edu/~bernd/owl.pdf) - Drton, Sturmfels, and Sullivant.
 
 ### Articles
-
 - [Algebraic Statistics](https://math.uchicago.edu/~may/REU2020/REUPapers/Mi,Sabrina.pdf) - Sabrina Mi.
 - [Algebraic Statistics and Contingency Table Problems: Log-Linear Models, Likelihood Estimation, and Disclosure Limitation](https://www.stat.cmu.edu/~arinaldo/papers/IMA_final.pdf) - Dobra, Fienberg, Rinaldo, Slavkovic, and Zhou. 
 - [Algebraic statistics, tables, and networks: The Fienberg advantage](https://arxiv.org/pdf/1910.01692.pdf) - Gross, Karwa, and Petrovic
@@ -41,8 +39,6 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 - [TAPAS of Algebraic Statistics](https://upcommons.upc.edu/bitstream/handle/2117/121825/AMS_AlgStat_edited.pdf;jsessionid=14FDD04764DB8FC23E69C9EFAD4526F2?sequence=1) - Endola, Casanellas, and Puente.
 - [Thesis: The Algebraic Statistics of Sampling, Likelihood, and Regression](https://orlandomarigliano.com/thesis.pdf) - Marigliano.
 
-
-### Courses
 
 ## Tools
 
@@ -62,6 +58,8 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 - [https://sethsullivant.wordpress.ncsu.edu/activities/](https://sethsullivant.wordpress.ncsu.edu/activities/)
 
 ## Event
+- [Algebraic Statistics Online Seminar](https://sites.google.com/view/algstatsonline/home)
+
 - ["Applied and computational algebraic geometry" EMGW02, from 22 January to 26 January 2024](https://www.newton.ac.uk/event/emgw02/)
 - ["Computations and Data in Algebraic Statistics" workshop in Oaxaca, from May 14 to May 19, 2023](https://www.birs.ca/events/2023/5-day-workshops/23w5130)
 - ["Algebraic Statistics and Our Changing World New Methods for New Challenges" at IMSI in Chicago, from September 18 to December 15, 2023](https://www.imsi.institute/activities/invitation-to-algebraic-statistics-and-applications/)
