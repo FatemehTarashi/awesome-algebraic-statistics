@@ -21,6 +21,7 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 ## Theory
 
 ### Books
+- [Algebraic Statistics](https://dokumen.pub/algebraic-statistics-draftnbsped.html) - Sullivant.
 - [Algebraic Statistics](https://tore.tuhh.de/bitstream/11420/1271/1/book.pdf) - Zimmermann.
 - [Algebraic Statistics for Computational Biology](http://yaroslavvb.com/papers/pachter-algebraic.pdf) - Pachter, and Sturmfels.
 - [An Introduction to Algebraic Statistics](https://www3.diism.unisi.it/~chiantini/did/00Book.pdf) - Bocci, Chiantini, and Geramita.
