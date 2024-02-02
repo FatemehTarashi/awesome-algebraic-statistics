@@ -11,6 +11,7 @@ Algebraic statistics is concerned with the development of techniques in algebrai
   - [Books](#books)
   - [Articles](#articles)
 - [Tools](#tools)
+  - [C++](#C++) 
   - [Macaulay2](#macaulay2)
   - [R](#r)
 - [Useful Links](#useful-links)
@@ -43,6 +44,9 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 
 ## Tools
 
+### C++
+- [4ti2](https://github.com/4ti2/4ti2) A software package for algebraic, geometric and combinatorial problems on linear spaces.
+  
 ### Macaulay2
 - [Algebraic Optimization degree](https://github.com/Macaulay2/Workshop-2020-Cleveland/tree/ISSAC-AlgOpt/alg-stat/AlgebraicOptimization) 
 - [GraphicalModels a gold star](https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.20/share/doc/Macaulay2/GraphicalModels/html/index.html) - discrete and Gaussian graphical models
