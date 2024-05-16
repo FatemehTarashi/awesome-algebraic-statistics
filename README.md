@@ -67,6 +67,4 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 - [Algebraic Statistics Online Seminar](https://sites.google.com/view/algstatsonline/home)
 
 - ["Applied and computational algebraic geometry" EMGW02, from 22 January to 26 January 2024](https://www.newton.ac.uk/event/emgw02/)
-- ["Computations and Data in Algebraic Statistics" workshop in Oaxaca, from May 14 to May 19, 2023](https://www.birs.ca/events/2023/5-day-workshops/23w5130)
-- ["Algebraic Statistics and Our Changing World New Methods for New Challenges" at IMSI in Chicago, from September 18 to December 15, 2023](https://www.imsi.institute/activities/invitation-to-algebraic-statistics-and-applications/)
 - ["The 3-way-interaction seminar is a monthly algebraic statistics seminar" in Germany](https://3-way-interaction.de/)
