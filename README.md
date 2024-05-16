@@ -36,6 +36,7 @@ Algebraic statistics is concerned with the development of techniques in algebrai
 - [Algebraic Statistics in Practice: Applications to Networks](https://arxiv.org/abs/1906.09537) - Casanellas, Petrović, Uhler.
 - [Algebraic Statistics in Model Selection](https://arxiv.org/pdf/1207.4112.pdf) - Garcia.
 - [Algebraic statistical models](https://www3.stat.sinica.edu.tw/statistica/oldpdf/A17n41.pdf) - Drton, and Sullivant.
+- [New directions in algebraic statistics: Three challenges from 2023](https://arxiv.org/pdf/2402.13961) - Alexandr, Bakenhus, Curiel, Deshpande, Gross, Gu, Hill, Johnson, Kagy, Karwa, Li, Lyu, Petrovi´c, Rodriguez
 - [Introductory Notes to Algebraic Statistics](https://www.openstarts.units.it/bitstream/10077/4141/1/HostenRuffaRendMat37.pdf) - Hoşten, and Ruffa.
 - [Open Problems in Algebraic Statistics](https://arxiv.org/pdf/0707.4558.pdf) - Sturmfels.
 - [TAPAS of Algebraic Statistics](https://upcommons.upc.edu/bitstream/handle/2117/121825/AMS_AlgStat_edited.pdf;jsessionid=14FDD04764DB8FC23E69C9EFAD4526F2?sequence=1) - Endola, Casanellas, and Puente.
