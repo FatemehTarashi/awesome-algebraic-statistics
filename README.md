@@ -4,7 +4,7 @@ A curated list of Algebraic Statistics tools and resources.
 
 Algebraic statistics uses techniques from algebraic geometry, commutative algebra, combinatorics, and computational algebra to study statistical models and their applications.
 
-If you know of any other tools or resources, feel free to fork/PR or open a new issue.
+If you know of any other tools or resources, read the [Contribution Guidelines](contributing.md) and feel free to fork/PR or open a new issue.
 
 ## Contents
 
@@ -17,6 +17,7 @@ If you know of any other tools or resources, feel free to fork/PR or open a new 
   - [C++](#c)
   - [Julia / OSCAR](#julia--oscar)
   - [Macaulay2](#macaulay2)
+  - [Python](#python)
   - [R](#r)
 - [Useful Links](#useful-links)
 - [Events](#events)
@@ -34,10 +35,12 @@ If you know of any other tools or resources, feel free to fork/PR or open a new 
 - [Algebraic Statistics for Computational Biology](https://www.cambridge.org/core/books/algebraic-statistics-for-computational-biology/2E5CCE6BB6751EB7423EE3D2BF40EBFF) - Pachter, and Sturmfels.
 - [An Introduction to Algebraic Statistics](https://www3.diism.unisi.it/~chiantini/did/00Book.pdf) - Bocci, Chiantini, and Geramita.
 - [Lectures on Algebraic Statistics](https://link.springer.com/book/10.1007/978-3-7643-8905-5) - Drton, Sturmfels, and Sullivant.
+- [Metric Algebraic Geometry](https://link.springer.com/book/10.1007/978-3-031-51462-3) - Breiding, Kohn, and Sturmfels.
 
 ### Articles
 
 - [Algebraic Algorithms for Sampling from Conditional Distributions](https://projecteuclid.org/journals/annals-of-statistics/volume-26/issue-1/Algebraic-algorithms-for-sampling-from-conditional-distributions/10.1214/aos/1030563990.full) - Diaconis, and Sturmfels.
+- [Algebraic Optimization Degree](https://doi.org/10.1145/3427218.3427222) - Härkönen, Hollering, Tarashi Kashani, and Rodriguez.
 - [Algebraic Statistics](https://math.uchicago.edu/~may/REU2020/REUPapers/Mi,Sabrina.pdf) - Mi.
 - [Algebraic Statistics and Contingency Table Problems: Log-Linear Models, Likelihood Estimation, and Disclosure Limitation](https://www.stat.cmu.edu/~arinaldo/papers/IMA_final.pdf) - Dobra, Fienberg, Rinaldo, Slavkovic, and Zhou.
 - [Algebraic Statistics in Model Selection](https://arxiv.org/pdf/1207.4112.pdf) - Garcia.
@@ -52,6 +55,7 @@ If you know of any other tools or resources, feel free to fork/PR or open a new 
 - [New Directions in Algebraic Statistics: Three Challenges from 2023](https://arxiv.org/pdf/2402.13961) - Alexandr, Bakenhus, Curiel, Deshpande, Gross, Gu, Hill, Johnson, Kagy, Karwa, Li, Lyu, Petrović, and Rodriguez.
 - [Open Problems in Algebraic Statistics](https://arxiv.org/pdf/0707.4558.pdf) - Sturmfels.
 - [TAPAS of Algebraic Statistics](https://upcommons.upc.edu/bitstream/handle/2117/121825/AMS_AlgStat_edited.pdf?sequence=1) - Endola, Casanellas, and Puente.
+- [Tensors in Algebraic Statistics](https://arxiv.org/abs/2411.14080) - Casanellas, Sierra, and Zwiernik.
 - [The Maximum Likelihood Degree of a Very Affine Variety](https://arxiv.org/abs/1207.0553) - Huh.
 - [Thesis: The Algebraic Statistics of Sampling, Likelihood, and Regression](https://orlandomarigliano.com/thesis.pdf) - Marigliano.
 
@@ -60,28 +64,47 @@ If you know of any other tools or resources, feel free to fork/PR or open a new 
 ### C++
 
 - [4ti2](https://4ti2.github.io/) - A software package for algebraic, geometric, and combinatorial problems on linear spaces.
+- [Bertini](https://bertini.nd.edu/) - Software for numerical algebraic geometry and homotopy continuation.
+- [LattE Integrale](https://www.math.ucdavis.edu/~latte/) - Software for lattice point enumeration and integration over convex polytopes.
+- [Normaliz](https://www.normaliz.uni-osnabrueck.de/) - A software tool for computations in affine monoids, vector configurations, lattice polytopes, and rational cones.
+- [polymake](https://polymake.org/) - Open-source software for research in polyhedral geometry and tropical geometry.
 
 ### Julia / OSCAR
 
 - [Algebraic Statistics in OSCAR](https://docs.oscar-system.org/stable/Experimental/AlgebraicStatistics/introduction/) - Experimental OSCAR functionality for common algebraic statistical models.
 - [AlgebraicStatistics.jl](https://github.com/bkholler/AlgebraicStatistics.jl) - A Julia / OSCAR package for algebraic statistics.
+- [HomotopyContinuation.jl](https://www.juliahomotopycontinuation.org/) - Solving systems of polynomials via numerical homotopy continuation, widely used for computing ML degrees.
+- [OSCAR](https://oscar-system.org/) - Comprehensive open-source computer algebra system in Julia with dedicated AlgebraicStatistics functionality.
 
 ### Macaulay2
 
+- [AlgebraicOptimization](https://github.com/Macaulay2/Workshop-2020-Cleveland/tree/master/alg-stat/AlgebraicOptimization) - Methods for determining the algebraic degree of an optimization problem, including Euclidean distance degrees and maximum likelihood degrees ([paper](https://doi.org/10.1145/3427218.3427222)).
 - [AllMarkovBases](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/AllMarkovBases/html/index.html) - Computing all minimal Markov bases of a configuration matrix.
+- [BinomialEdgeIdeals](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/BinomialEdgeIdeals/html/index.html) - Binomial edge ideals of graphs arising in conditional independence and graphical models.
+- [EuclideanDistanceDegree](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/EuclideanDistanceDegree/html/index.html) - Euclidean distance degrees of algebraic varieties.
 - [FourTiTwo](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/FourTiTwo/html/index.html) - Macaulay2 interface to 4ti2.
 - [GraphicalModels](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/GraphicalModels/html/index.html) - Discrete and Gaussian graphical models.
 - [GraphicalModelsMLE](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/GraphicalModelsMLE/html/index.html) - Maximum likelihood estimates for graphical statistical models.
+- [LikelihoodGeometry](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/LikelihoodGeometry/html/index.html) - Likelihood correspondences and likelihood ideals for discrete algebraic statistical models.
 - [Markov](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/Markov/html/index.html) - Markov ideals arising from Bayesian networks in statistics.
 - [MultigradedImplicitization](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/MultigradedImplicitization/html/index.html) - Implicitization problems using multigradings.
 - [PhylogeneticTrees](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/PhylogeneticTrees/html/index.html) - Invariants for group-based phylogenetic models.
+- [Probability](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/Probability/html/index.html) - Probability distributions and random variate generation in Macaulay2.
 - [StatGraphs](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/StatGraphs/html/index.html) - Graphs specific for algebraic statistics.
+
+### Python
+
+- [pgmpy](https://pgmpy.org/) - Python library for probabilistic graphical models, Bayesian networks, and causal inference.
+- [PyNormaliz](https://github.com/Normaliz/PyNormaliz) - Python interface to Normaliz for computing Hilbert bases, lattice points, and Markov/Graver bases of toric ideals.
+- [SageMath](https://www.sagemath.org/) - Open-source mathematics software system supporting algebraic geometry, toric ideals, polyhedral geometry, and interfaces to 4ti2 and Macaulay2.
+- [SymPy](https://www.sympy.org/) - Python library for symbolic mathematics, including polynomial manipulation and Gröbner bases for algebraic statistical modeling.
 
 ### R
 
 - [algstat](https://github.com/dkahle/algstat) - An R package for algebraic statistics.
 - [latte](https://cran.r-project.org/package=latte) - R interface to LattE and 4ti2.
 - [m2r](https://github.com/dkahle/m2r) - R interface to Macaulay2.
+- [mpoly](https://cran.r-project.org/package=mpoly) - Symbolic multivariate polynomials and Gröbner bases in R, foundational dependency for algstat.
 
 ## Useful Links
 
@@ -89,7 +112,10 @@ If you know of any other tools or resources, feel free to fork/PR or open a new 
 - [Algebraic Statistics Online Seminar](https://sites.google.com/view/algstatsonline/home) - Online seminar series in algebraic statistics.
 - [Journal of Algebraic Statistics](https://msp.org/astat/) - Community-run journal published by MSP.
 - [Discontinued Journal of Algebraic Statistics](https://www.jalgstat.org/) - Archive and information for the discontinued journal.
+- [Markov Bases Database](https://markov-bases.de/) - Curated online database of precomputed Markov bases for statistical models in 4ti2 format.
+- [MathRepo](https://mathrepo.mis.mpg.de/) - Mathematical research data and code repository from MPI MiS.
 - [Seth Sullivant: Activities](https://sethsullivant.wordpress.ncsu.edu/activities/) - Events, workshops, and activities related to algebraic statistics and applied algebraic geometry.
+- [SIAM Journal on Applied Algebra and Geometry (SIAGA)](https://www.siam.org/publications/journals/siam-journal-on-applied-algebra-and-geometry-siaga) - Major journal publishing algebraic statistics and applied algebraic geometry.
 
 ## Events
 
@@ -99,6 +125,10 @@ If you know of any other tools or resources, feel free to fork/PR or open a new 
 
 - [Algebraic Statistics 2027](https://www.algebraicstatistics.org/2027/index.html) - Otto von Guericke University Magdeburg, Germany, March 1-5, 2027.
 - [Algebraic Distance Optimization](https://icerm.brown.edu/program/semester_program_workshop/sp-s27-w1) - ICERM, Brown University, US, February 15-19, 2027.
+- [ATMCS 13 (Algebraic Topology: Methods, Computation and Science)](https://appliedtopology.org/) - KTH, Stockholm, Sweden, June 28 - July 2, 2027.
+- [SIAM Conference on Applied Algebraic Geometry (AG27)](https://www.siam.org/conferences-events/siam-conferences/ag27/) - Osnabrück, Germany, July 19-23, 2027.
+
+### Past Events
 
 #### 2026
 
