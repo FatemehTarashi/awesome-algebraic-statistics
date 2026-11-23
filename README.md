@@ -58,6 +58,7 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [Tensors in Algebraic Statistics](https://arxiv.org/abs/2411.14080) - Casanellas, Sierra, and Zwiernik.
 - [The Maximum Likelihood Degree of a Very Affine Variety](https://arxiv.org/abs/1207.0553) - Huh.
 - [Thesis: The Algebraic Statistics of Sampling, Likelihood, and Regression](https://orlandomarigliano.com/thesis.pdf) - Marigliano.
+- [Schur multipliers, vanishing minors and Gaussian conditional independence](https://arxiv.org/abs/2611.20982) - Leonelli
 
 ## Tools
 
